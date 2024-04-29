@@ -62,6 +62,7 @@ connect().then(async () => {
     }
 
     let choice;
+    // the do method I got from chatGPT. Also, when I worked with Malik on the paired programming landscape game, we learned about the switch method, so I used that one here. 
     do  {
     
         choice = prompt('Enter your choice (1-5): ');
